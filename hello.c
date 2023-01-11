@@ -41,6 +41,18 @@ int main ()
 	
 	//function call
 	int i = func();
+
+
+	//define keyword
+	#define LENGHT 10
+	#define WIDTH 2
+	#define NEWLINE '\n'
+
+	int area;
+
+	area = LENGHT * WIDTH;
+	printf("the value of area is : %d ", area);
+	printf("%c ", NEWLINE);
 	
 	return 0;
 }
